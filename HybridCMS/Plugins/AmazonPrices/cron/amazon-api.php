@@ -12,11 +12,11 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/HybridCMS/Modules/aws_signed_request.
 <?php
 
     $arrResults = array();
-    $emailErrors = "claaskalwa@yahoo.de";
+    $emailErrors = "";
 
-    $public_key = 'AKIAJ6VBBVH66RDR7IWA';
-    $private_key = 'cAjRgwvBiuNqKE6pIN/NC0YwEYKsTu6PG+ml6S2o';
-    $associate_tag = 'wk09234-21';
+    $public_key = '';
+    $private_key = '';
+    $associate_tag = ''
     
     $comptableName = "Wildkameras";
 
