@@ -1,0 +1,14 @@
+#toTop{ 
+    text-align: center; 
+    padding: 5px; 
+    cursor: pointer;
+    position: fixed;
+    bottom: 40%;
+    right: 0px; 
+    display: none;
+}
+
+#toTop a {
+    font-size: 60px;
+    color: lightgrey;
+}

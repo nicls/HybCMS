@@ -1,0 +1,3 @@
+Version 1.2 - Fixed Bug in regex in CTAButton.php by escaping the -
+Version 1.1 - Complete rework to CTA Button MVC
+Version 1.0 - Schriften kaufen Button

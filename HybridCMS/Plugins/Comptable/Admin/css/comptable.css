@@ -1,0 +1,10 @@
+.btn_delete_table:hover,
+.btn_delete_dataset:hover,
+.btn_delete_comptable:hover,
+.hyb_edit:hover{
+     cursor: pointer;
+}
+
+.errorMsg {
+    margin-top: 10px;
+}

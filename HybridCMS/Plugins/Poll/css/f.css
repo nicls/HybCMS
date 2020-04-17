@@ -1,0 +1,72 @@
+#pollContainer {
+    color: #eee;
+    position: fixed;
+    min-width: 300px;
+    z-index: 2;
+}
+#pollContainer header {
+    background-color: #444;
+    padding: 20px;  
+    border-top-right-radius: 3px;      
+    border-top-left-radius: 3px;
+    font-weight: 700;
+}
+#pollContainer header i{
+    font-size: 24px;
+}
+
+#pollContainer header .closePoll,
+#pollContainer header .openPoll {
+    float: right;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#pollContainer ul,
+#thankYouMsg {
+    margin: 0;
+    padding: 0;
+    background-color: #444;    
+    padding: 4px 20px 20px 20px;  
+    border-bottom-right-radius: 3px;      
+    border-bottom-left-radius: 3px;
+    font-size: 0.95em;    
+}
+
+#thankYouMsg {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+#pollContainer ul li {
+    list-style: none;
+    margin: 4px 0;
+    padding: 0;
+}
+
+#pollContainer ul li i {
+    cursor: pointer;    
+}
+
+#pollContainer textarea {
+    margin: 10px 0;
+    display: block;
+    border-radius: 3px;
+    width: 100%;
+    color: #333;
+}
+
+#pollContainer ul li i {
+    margin-right: 10px;
+}
+
+#pollContainer button {
+    width: 100%;
+    background-color: green;
+    border-radius: 3px;  
+    border: 1px solid #444;
+    padding: 10px;
+    margin-top: 4px;
+    font-weight: 700;
+    color: #fff;
+}

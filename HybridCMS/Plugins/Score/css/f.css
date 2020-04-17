@@ -1,0 +1,62 @@
+.scoreMean { 
+    font-family: "Open Sans Condensed";
+    text-align: center;
+    float: left;
+    background-color: #C7B25F;
+    color: white;
+    padding: 12px 5px;
+    border-radius: 3px;
+    width: 77px;
+}
+
+.scoreMean span.score {
+    text-shadow: 1px 0px 0px #888;
+    font-size: 31px; 
+    line-height: 31px;
+}
+
+.scoreMean span.outof {
+    font-size: 18px;
+    display: block;
+}
+
+ul.scoreCategories {
+    margin-left: 40px;
+}
+
+ul.scoreCategories li { 
+    margin: 3px 0;
+    display: block; 
+    width:100%; 
+    background-color: #bcbcbc;
+    box-shadow: inset 0px 0px 2px 0px #888;
+    color:#000;
+    overflow: hidden;
+    border-bottom: 1px solid #888;
+    border-left: 1px solid #ddd;
+}
+
+ul.scoreCategories li span{ 
+    background: lightgreen;
+    display: inline-block;
+    line-height: 23px;
+    box-shadow: 1px 0px 1px 0px #888;
+    padding-top: 1px;
+    padding-left: 10px;
+    color: 333;
+}
+
+ul.scoreCategories li span div { display: inline-block; } 
+
+ul.scoreCategories, ul.scoreCategories li span, ul.scoreCategories li { 
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+@media (max-width: 767px) {
+    ul.scoreCategories li span { 
+        font-size: 13px;
+    }
+}

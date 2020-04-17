@@ -1,0 +1,24 @@
+.hyb_user_socialMedia {
+    margin-bottom: 20px;
+}
+
+.hyb_user_socialMedia a {
+    color: #444;
+    margin-right: 10px;
+    font-size: 1.6em;
+}
+
+.hyb_user_profileImg {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.hyb_user_memberSince {
+    font-family: 'Open Sans Condensed';
+    fonts-size: 1.0em;
+}
+
+.hyb_user_aboutmeContainer {
+    clear: both;
+}

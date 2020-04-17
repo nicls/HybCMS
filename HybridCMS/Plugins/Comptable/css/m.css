@@ -1,0 +1,140 @@
+.hyb_table {
+    margin-bottom: 60px;
+}
+
+.hyb_table table.table {
+    margin-bottom: 0;
+}
+
+.hyb_table table.table tr:last-of-type {
+    border-bottom: 3px solid grey;
+}
+
+.hyb_table table.table tr:nth-of-type(odd) {
+    background-color: #556B2F;
+}
+
+.hyb_table table.table th {
+    width: 160px;
+}
+.hyb_table_header {
+    border-radius: 5px;
+    color: #444; 
+    padding: 10px 0 !important;
+    margin-bottom: 0px;
+    background-color: white;  
+    text-align: center; 
+    box-shadow: 0px 3px 1px black;
+}
+
+.hyb_table_header img {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;  
+}
+
+.hyb_table_info_container {
+    position: relative;
+    border-left: 1px solid #444;
+    width: 100%;    
+}
+
+.hyb_table_header ul {
+    display: block;  
+    margin: 0 0 10px 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.hyb_table_header ul li {
+    margin: 0;
+    padding: 0 20px;
+    list-style-type: none !important;
+    border-top: 1px dotted #ddd;
+    border-right: 1px dotted #ddd;
+    white-space: nowrap;
+    display: block;
+    padding-right: 20px;   
+}
+
+.hyb_table_header ul li:first-of-type {
+    background-color: #eee;    
+}
+
+.hyb_table_header ul li i,
+.hyb_table_header ul li a i {
+    width: 56px;
+}
+
+.hyb_table_header ul li span,
+.hyb_table_header ul li a span {
+    font-size: 20px;
+    color: #444;
+}
+
+.hyb_table_header ul li,
+.hyb_table_header ul li i,
+.hyb_table_header ul li span {
+    line-height: 55px;
+    height: 55px;
+    vertical-align: middle;
+}
+
+.hyb_table_header li.hyb_table_name {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.hyb_isFavorit .hyb_table_name {
+    background-color: olivedrab !important;
+    color: white;
+}
+.hyb_isFavorit .hyb_demarcateAsFavorit i {
+    color: #8EC447;
+}
+
+.hyb_table_more {
+   width: 100%; 
+   color: white;
+   background-color: #556B2F;
+   border: none;
+   font-family: "Open Sans Condensed";
+   height: 40px;
+}
+.hyb_table_more:focus {
+    outline: 0;
+}
+
+/** Legende 
+=================================== */
+#legend {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 10px;    
+}
+
+#legend li {
+    list-style: none;
+}
+#legend li i {
+    width: 20px;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/** News 
+=================================== */
+
+.hyb_comptable_changelog tr {
+    border-bottom: 1px dotted #ddd;
+}
+.hyb_comptable_changelog tr td:first-of-type,
+.hyb_comptable_newTables tr td:first-of-type
+{
+    white-space: normal;
+}
+.hyb_comptable_changelog tr td {
+    vertical-align: top;
+    padding: 10px;
+    display: block;
+}

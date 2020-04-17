@@ -1,0 +1,24 @@
+.testimonial {
+    border-bottom: 1px dotted #b7b7b7;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    min-height: 125px;
+}
+
+.testimonial img {
+    float: left;
+    margin-right: 13px;
+    border: 1px solid #b7b7b7;
+}
+
+#sidebar .widget .testimonial p.testimonial-name {
+    font-size: 1.1em;
+    line-height: 1em;
+    margin-bottom: 10px;
+    margin-top: 2px;
+}
+
+#sidebar .widget .testimonial p.testimonial-text {
+    font-size: 0.8em;
+    margin-top: 0;
+}

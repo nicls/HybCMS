@@ -1,0 +1,26 @@
+.hyb_author {
+    margin: 10px 0;
+    padding: 10px 0;
+    border-top: 1px solid #888;
+    border-bottom: 1px solid #888;
+}
+
+.hyb_author img{
+    float: left;
+    margin-right: 20px; 
+    border-radius: 3px;
+}
+ul.hyb_authorProfiles li {
+    display: inline-block;
+    font-size: 60px;
+    list-style: none;
+    padding: 5px 10px; 
+}
+
+.hyb_author p {
+    font-size: 0.90em;
+}
+
+.hyb_author header {
+    font-weight: 500;
+}

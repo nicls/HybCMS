@@ -1,0 +1,48 @@
+.hyb_comment_container 
+{
+    margin: 15px 0 50px 0;
+    padding-top: 20px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.hyb_comment_container img { float: left; }
+.hyb_comment_userdatatable { 
+    margin-left: 80px; 
+    min-height: 80px; 
+    margin-bottom: 20px; 
+}
+
+.hyb_comment_container form{
+    border-top: 1px dotted #ccc;
+}
+
+.hyb_comment_userdatatable tr td,
+.hyb_comment_userdatatable tr th 
+{
+    padding: 5px 10px 5px 0;
+    vertical-align: top;     
+}
+.hyb_comment_userdatatable tr td { vertical-align: top; }
+.hyb_comment_userdatatable tr th { text-align: left; width: 120px; }
+
+.hyb_comment_userdatatable::after { 
+    content:'';
+    display:block;
+    clear: both; 
+}
+
+.hyb_comment_userdatatable .hyb_comment_comment{
+    padding-top: 20px;
+    display: block;
+}
+
+.hyb_comment_container img.hyb_comment_avatar{
+    border: 1px solid #eee;
+    float: left;
+    margin: 0 10px 0 0;
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;    
+}

@@ -1,0 +1,123 @@
+Version 1.5
+Added Comments for Unregistered Users.
+
+Version 1.4.2
+Added auto-escaping of Content-Strings.
+Added function in Facade to check if a Content-String exists.
+---------------------------
+| Files that has changed  |
+---------------------------
+HybridCMS/Content/Strings/Strings.php
+
+HybridCMS/HybridCMS.php
+HybridCMS/changelog
+
+Version 1.4.1
+Added Plugin ReadDetection
+---------------------------
+| Files that has changed  |
+---------------------------
+HybridCMS/Modules/MobileDetect/
+
+HybridCMS/Plugins/ReadDetection/
+
+HybridCMS/Helper/globalSettings.php
+
+HybridCMS/HybridCMS.php
+HybridCMS/changelog
+
+css/styles.css
+
+js/functions.js
+js/viewport.js
+
+header-whitepage.php
+header.php
+
+Version 1.4
+Added internationalisation, Strings and CDS
+---------------------------
+| Files that has changed  |
+---------------------------
+HybridCMS/Helper/Helper.php
+HybridCMS/Helper/globalSettings.php
+
+HybridCMS/HybridCMS.php
+
+HybridCMS/Modules/CDS/CDS.php
+
+HybridCMS/Content/Strings/Strings.php
+HybridCMS/Content/Strings/strings-de.xml
+HybridCMS/Content/Strings/strings-en.xml
+
+HybridCMS/Page/PageSettings/HrefLang.php
+HybridCMS/Page/PageSettings/PageSettings.php
+
+HybridCMS/Plugins/User/Database/DBUserRegistered.php
+
+en/index.php
+header.php
+nav.php
+hybCMSLoader.php
+
+
+Version 1.3
+Image-Module is now mutch faster
+---------------------------
+| Files that has changed  |
+---------------------------
+/HybridCMS/Modules/Image.php
+
+Version 1.2
+Added Content Delivey System with the functionality to handle mobile first
+---------------------------
+| Files that has changed  |
+---------------------------
+/hybCMSLoader.php !! Attention for Crawtrack
+/HbybridCMS/HybridCMS.php
+/HbybridCMS/Helper/globalSettings.php !!Do not Overwrite because of the Settings
+
+/HybridCMS/Modules/URL/Url.php
+/HybridCMS/Modules/URL/Referrer.php
+/HybridCMS/Modules/CDS/*
+/HybridCMS/Modules/MobileDetect/*
+
+
+Version 1.1 
+Plugins are now extended by \Plugins\Plugin\Plugin. Controller are extended by 
+\Plugins\Plugin\Controller and ControllerFactorys must implement the 
+IControllerFactory at \Plugins\Plugin\IControllerFactory
+
+Version 1.0
+
+Files that should not be overwritten on updates
+###############################################
+/HbybridCMS/Helper/setupGlobalAsideWidgets.php
+/HbybridCMS/Helper/setupGlobalPlugins.php
+/HbybridCMS/Helper/globalSettings.php
+
+/HybridCMS/Plugins/*/View/*
+/HybridCMS/Plugins/*/css/*
+/HybridCMS/Plugins/*/js/*
+/HybridCMS/Plugins/*/PluginName -> toString-Methoden
+
+/HybridCMS/AsideWidgets/Widget* ->toString-Methoden
+
+/css/override-bootstrap-theme.css
+/css/override-bootstrap.css
+/css/layout.css
+/css/layout-whitepage.css
+
+/images/*
+
+/.htaccess
+/404.php
+/footer-whitepage.php
+/footer.php
+/header-whitepage.php
+/header.php
+/index.php
+/nav.php
+/sidebar.php
+/suche.php
+

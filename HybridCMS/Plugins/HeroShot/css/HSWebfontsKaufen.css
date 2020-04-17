@@ -1,0 +1,212 @@
+#heroshot-schriften-kaufen {
+    position: relative;
+    width: 100%;
+}
+
+#heroshot-schriften-kaufen h1, 
+#heroshot-schriften-kaufen ul,
+#heroshot-schriften-kaufen a.button{
+    position: absolute;
+    left: 37%; 
+}
+
+#heroshot-schriften-kaufen h1 {
+    top: 50px;
+    text-shadow: 1px 1px 2px #707070;
+}
+
+#heroshot-schriften-kaufen ul {
+    top: 80px;
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+
+#heroshot-schriften-kaufen ul li i { 
+    margin-right: 5px;
+    color: #628b29;
+    font-size: 1.35em;
+    text-shadow: 1px 1px 2px #707070;
+}
+
+#heroshot-schriften-kaufen a.button {
+    top: 260px;
+}
+
+
+/** Media Queries */
+/********************/
+
+@media screen and (min-width: 1025px) and (max-width: 1123px) {
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        left: 37%;       
+    }
+    
+    #heroshot-schriften-kaufen h1 {
+        top: 45px;
+    }
+    
+    #heroshot-schriften-kaufen a.button {
+        top: 255px;
+        padding: 5px 10px;
+    }      
+}
+
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        left: 37%;       
+    }
+    
+    #heroshot-schriften-kaufen h1 {
+        top: 30px;
+    } 
+    
+    #heroshot-schriften-kaufen ul {
+        top: 60px;
+        font-size: 1.1em;
+    }    
+    
+    #heroshot-schriften-kaufen a.button {
+        top: 220px;
+        font-size: 1.4em;
+        padding: 5px 10px;
+    }      
+}
+
+@media screen and (min-width: 868px) and (max-width: 959px) {
+    #heroshot-schriften-kaufen h1 {
+        font-size: 1.4em;
+    }
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        left: 37%;       
+    }
+    
+    #heroshot-schriften-kaufen h1 {
+        top: 30px;
+    } 
+    
+    #heroshot-schriften-kaufen ul {
+        top: 55px;
+        font-size: 1em;
+    }    
+    
+    #heroshot-schriften-kaufen a.button {
+        top: 205px;
+        font-size: 1.1em;
+        padding: 5px;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 867px) {
+    #heroshot-schriften-kaufen h1 {
+        font-size: 1.4em;
+    }
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        left: 37%;       
+    }
+    
+    #heroshot-schriften-kaufen h1 {
+        top: 30px;
+    } 
+    
+    #heroshot-schriften-kaufen ul {
+        top: 50px;
+        font-size: 0.90em;
+    }    
+    
+    #heroshot-schriften-kaufen a.button {
+        top: 190px;
+        font-size: 1.1em;
+        padding: 5px;
+    } 
+}
+
+@media screen and (min-width: 680px) and (max-width: 767px) {
+    #heroshot-schriften-kaufen h1 {
+        font-size: 1.2em;
+    }
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        left: 36%;       
+    }
+    
+    #heroshot-schriften-kaufen h1 {
+        top: 20px;
+    } 
+    
+    #heroshot-schriften-kaufen ul {
+        top: 50px;
+        font-size: 0.85em;
+    }    
+    
+    #heroshot-schriften-kaufen a.button {
+        top: 160px;
+        font-size: 1.1em;
+        padding: 5px;
+    } 
+}
+
+@media screen and (min-width: 480px) and (max-width: 679px) {
+    #heroshot-schriften-kaufen img{
+        display: none;
+    }
+    
+        #heroshot-schriften-kaufen { 
+            background-color: #f6e8d1; 
+            padding: 20px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+    
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        position: relative;  
+        top: 0;
+        left: 0;
+        text-shadow: 0px 0px 0px #707070;
+    }
+    
+    #heroshot-schriften-kaufen a.button {
+        font-size: 1.4em; 
+        padding: 10px 20px;
+    }  
+}
+
+@media screen and (max-width: 479px) {
+    #heroshot-schriften-kaufen img{
+        display: none;
+    }
+    
+        #heroshot-schriften-kaufen { 
+            background-color: #f6e8d1; 
+            padding: 20px;
+            border-top: 1px solid #ccc;
+            border-bottom: 1px solid #ccc;
+        }
+    
+    #heroshot-schriften-kaufen h1, 
+    #heroshot-schriften-kaufen ul,
+    #heroshot-schriften-kaufen a.button{
+        position: relative;  
+        top: 0;
+        left: 0;
+        text-shadow: 0px 0px 0px #707070;
+    }
+    
+    #heroshot-schriften-kaufen a.button {
+        font-size: 1.4em; 
+        padding: 10px 20px;
+    }    
+    
+}

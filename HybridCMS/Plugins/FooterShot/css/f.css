@@ -1,0 +1,52 @@
+.footerShot.wildkameraKaufen,
+.widget .footerShot.wildkameraKaufen {
+    position: relative;
+    z-index: 1;
+}
+
+.footerShot.wildkameraKaufen a.btn,
+.widget .footerShot.wildkameraKaufen a.btn {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    z-index: 2;
+    position:relative;
+}
+
+.footerShot.wildkameraKaufen img,
+.widget .footerShot.wildkameraKaufen img {
+    margin-bottom: -10px; 
+    position:relative;
+    z-index: 3;
+}
+
+.footerShot.wildkameraKaufen p,
+.widget .footerShot.wildkameraKaufen p {
+    float: left;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 140px;
+}
+
+.footerShot.wildkameraKaufen p {
+    width: 240px;
+}
+
+@media (max-width: 1199px) {
+    .widget .footerShot.wildkameraKaufen p {
+        float: left;
+        font-size: 20px;
+        margin-top: 60px;
+        margin-left: 10px;
+        margin-right: 0px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 990px) {
+    .widget .footerShot.wildkameraKaufen {
+        display: none;
+    }
+}

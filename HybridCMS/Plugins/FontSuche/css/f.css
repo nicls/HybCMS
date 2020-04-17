@@ -1,0 +1,11 @@
+#fontSuche { width: 100%; }
+
+#fontSuche a {
+    padding: 6px 6px 3px;
+    cursor: pointer;
+    text-align: center;    
+}
+
+#fontSuche a i {
+    color: black;
+}

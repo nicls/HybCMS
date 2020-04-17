@@ -1,0 +1,273 @@
+#hyb_comptableContainer {
+    font-size: 16px;
+}
+
+table.hyb_comptable {
+    margin-left: 10px;
+}
+
+#hyb_comptableKeysContainer {
+    border-right: 1px solid #2D2D2E !important;
+    border-bottom: 1px solid #2D2D2E !important;
+    border-left: 1px solid #2D2D2E !important;    
+}
+
+table.hyb_comptable,
+.hyb_comptable_keys,
+.hyb_comptable_table {
+    font-family: "Open Sans Condensed";
+    font-weight: 100;    
+    color: #eee;    
+}
+
+.hiddenDataset {
+    display: none;
+}
+
+table.hyb_comptable th{
+    white-space:nowrap;
+    background-color: #2D2D2E;
+    border-right: 1px solid #333;
+    font-weight: inherit;
+}
+
+table.hyb_comptable th i.fa:first-of-type {
+    padding-left: 20px;
+}
+
+table.hyb_comptable th i.fa {
+    padding-left: 12px; 
+}
+
+
+table.hyb_comptable th,
+table.hyb_comptable td {
+    padding: 10px 10px;
+    text-wrap: normal;
+    vertical-align: top;
+}
+
+table.hyb_comptable td {
+    border-right: 1px solid #333;  
+    border-top: 1px solid #333;
+    min-width: 100px;
+}
+table.hyb_comptable tr {
+    background-color: #545454;
+}
+table.hyb_comptable tr:hover {
+    background-color: #606060;
+    color:#fff;
+}
+
+.hyb_comptable tr.hyb_isFavorit,
+.hyb_comptable tr.hyb_isFavorit:hover{
+    background-color: darkolivegreen;
+}
+
+table.hyb_comptable .hyb_ds_table_name {
+    white-space:nowrap;
+    vertical-align: top;
+    background-color: darkolivegreen;
+}
+.hyb_comptable tr.hyb_isFavorit .hyb_ds_table_name a .fa,
+.hyb_comptable tr.hyb_isFavorit .hyb_ds_table_name .fa {
+}
+
+.hyb_comptable tr.hyb_isFavorit .hyb_ds_table_name .hyb_demarcateAsFavorit {
+    color: #8EC447;
+}
+
+.hyb_comptable i.hyb_markAsFavorit:hover,
+.hyb_comptable i.hyb_toTrash:hover {
+    color: #8EC447 !important;
+}
+
+table.hyb_comptable .hyb_ds_table_name a .fa,
+table.hyb_comptable .hyb_ds_table_name .fa {
+    color: #000;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+
+table.hyb_comptable .hyb_ds_table_name span.hyb_tableName {
+    padding-right: 20px; 
+    display: inline-block;
+    width: 160px;
+    cursor: default;
+}
+
+table.hyb_comptable .hyb_ds_table_name span {
+    cursor: pointer;
+}
+
+table.hyb_comptable .hyb_ds_table_name a i.fa,
+table.hyb_comptable .hyb_ds_table_name .fa {
+    padding-right: 15px; 
+}
+
+table.hyb_comptable .hyb_ds_table_name a {
+    cursor: pointer;
+    color: #fff;
+}
+
+/** Buttons **/
+.hyb_sortAtoZ,
+.hyb_sortZtoA,
+.hyb_lock,
+.hyb_unlock,
+.hyb_toTrash,
+.hyb_markAsFavorit {
+    cursor: pointer;
+}
+
+i.hyb_unlock {
+    color: #8EC447;
+}
+.keySelector i.hyb_unlock {
+    color: #8EC447;
+}
+
+/** Vergleichskriterien **/
+.hyb_comptable_keys {
+    width: 240px; 
+}
+
+.hyb_comptable_keys th  {
+    padding: 10px 10px;
+    text-wrap: normal;
+    vertical-align: top;
+    white-space:nowrap;
+    background-color: #2D2D2E;
+    color: #eee;
+    font-weight: inherit;
+    border-right: 1px solid #333;    
+}
+
+.hyb_comptable_keys td {
+    white-space:nowrap;
+    background-color: #8EC447;
+    color: #444;
+    border-top: 1px solid #333;
+    font-weight: inherit;
+    padding: 5px 10px;
+    border-right: 1px solid #333;      
+}
+
+.hyb_comptable_keys .keySelector.activeKeySelector {
+    background-color: darkolivegreen;
+    color: #fff;
+}
+
+.hyb_comptable_keys td:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: darkolivegreen;
+}
+
+.hyb_comptable_keys td span.hyb_key {
+    /*width: 260px;*/
+    width: 80%;
+    display: inline-block;
+}
+
+.hyb_comptable_keys td:hover span {
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.hyb_comptable_keys .keySelector span:even {
+    width: 20%;
+}
+
+.hyb_comptable_keys td i {
+    width: 20%;
+    text-align: right;    
+}
+
+.hyb_comptable_keys td i.hyb_lock {
+    display: none;
+}
+
+.hyb_comptable_keys td:hover i.hyb_lock {
+    /*display: inline-block;*/
+}
+
+/** Changelog
+================================== */
+.hyb_comptable_changelog tr,
+.hyb_comptable_newTables tr {
+    font-size: 0.9em;
+    border-bottom: 1px solid darkolivegreen;
+}
+.hyb_comptable_changelog tr td:first-of-type,
+.hyb_comptable_newTables tr td:first-of-type
+{
+    white-space: nowrap;
+}
+.hyb_comptable_changelog tr td {
+    vertical-align: top;
+    padding: 10px;
+}
+
+/** Tables 
+================================== */
+.hyb_comptable_table thead th {    
+    background-color: #2D2D2E;
+    border-right: 1px solid #333;
+    padding: 7px 15px; 
+    font-weight: 100;
+}
+
+.hyb_comptable_table tbody th {    
+    white-space:nowrap;
+    background-color: #8EC447;
+    color: #444;
+    border-top: 1px solid #333;
+    font-weight: inherit;
+    padding: 5px 20px 5px 15px;
+    border-right: 1px solid #333;  
+}
+
+.hyb_comptable_table tbody td {    
+    white-space:nowrap;
+    color: #eee;
+    border-top: 1px solid #333;
+    font-weight: inherit;
+    padding: 5px 20px 5px 20px;
+}
+
+table.hyb_comptable_table tr {
+    background-color: #545454;  
+}
+table.hyb_comptable_table tr:hover {
+    background-color: #606060;
+    color:#fff;
+}
+
+.hyb_comptable_table th a {
+    color: #eee;
+}
+
+/** jQuery Ui 
+=================================== */
+.hyb_key-state-highlight,
+.hyb_comptable-state-highlight {
+    height: 1.5em;
+    margin: 2px 0;
+}
+
+.hyb_key-state-highlight td,
+.hyb_comptable-state-highlight td {
+    background: #111;
+}
+
+/** Zoom Img
+=================================== */
+img.zoomImg {
+    border-radius: 10px;
+}
+img.zoomImg:hover {
+    cursor: default !important;
+}

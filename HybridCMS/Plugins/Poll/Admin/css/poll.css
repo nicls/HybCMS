@@ -1,0 +1,19 @@
+.btn_delete_pollQuestion:hover,
+.btn_delete_poll:hover,
+.hyb_edit:hover {
+     cursor: pointer;
+}
+
+.errorMsg {
+    margin-top: 10px;
+}
+
+#container_hyb_poll_DontTrackMe ul li {
+    list-style: none;
+    
+}
+
+#container_hyb_poll_DontTrackMe ul {
+    margin: 0;
+    padding: 0;
+}
