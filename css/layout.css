@@ -1,0 +1,71 @@
+/* Fix Image Numbers on Magnific Popup */
+.mfp-counter {
+    width: 35px;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+#logo {
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+}
+
+#logo a:hover,
+#logo a {
+    color: #000;
+    text-decoration: none;    
+}
+
+#container_mainnav {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #ccc;
+    font-family: 'Open Sans Condensed';
+    font-size: 1.1em;
+    color: #333;
+    letter-spacing: 0.1em;
+    padding: 10px;
+}
+
+#breadcrumb,
+#bookmarks_container {
+    font-family: 'Open Sans Condensed';
+    color: #aaa;
+}
+
+figure {
+    margin: 0;
+}
+
+.hyb_cat_img_container {
+    position: relative;
+}
+.hyb_cat_img_container span.price {
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+/** Fix Third Partys 
+================================ */
+
+/* Fix Image Numbers on Magnific Popup */
+.mfp-counter {
+    width: 35px;
+}
+/* Fix Close Button on Magnific Popup */
+.mfp-close {
+    font-size: 1.1em !important;
+}
+.mfp-close:after {
+    content: " schließen ";
+}
+/* Fix figcaptionon Magnific Popup */
+.mfp-figure figure figcaption:before {
+    content: "";
+}

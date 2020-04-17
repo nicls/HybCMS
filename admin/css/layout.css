@@ -1,0 +1,25 @@
+#logo {
+    font-size: 2em;
+    font-family: 'Satisfy', cursive;
+}
+
+#logo a { 
+    color: #000; 
+    padding-left: 20px;
+}
+
+#sidebar {
+    padding: 0 30px 30px 30px ;
+    background: #eee;
+    border-radius: 4px;
+}
+
+#sidebar hr {
+    border-top: 1px dotted #ccc !important;
+}
+
+/** Overwrite Styles of navbar-brand from twitter-bootstrap */
+.navbar-brand {
+    font-size: inherit !important;
+}
+

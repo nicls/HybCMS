@@ -1,0 +1,375 @@
+/* #Margins & paddings
+================================================== */
+.remove-bottom { margin-bottom: 0 !important; }
+.remove-top { margin-top: 0 !important; }
+.remove-left { margin-left: 0 !important; }
+.remove-right { margin-right: 0 !important; }
+
+.remove-inner-bottom { padding-bottom: 0 !important; }
+.remove-inner-top { padding-top: 0 !important; }
+.remove-inner-left { padding-left: 0 !important; }
+.remove-inner-right { padding-right: 0 !important; }
+
+/** Margin */
+.add-bottom-5 { margin-bottom: 5px !important; }
+.add-top-5 { margin-top: 5px !important; }
+.add-left-5 { margin-left: 5px !important; }
+.add-right-5 { margin-right: 5px !important; }
+
+.half-bottom, .add-bottom-10 { margin-bottom: 10px !important; }
+.half-top, .add-top-10 { margin-top: 10px !important; }
+.half-left, .add-left-10 { margin-left: 10px !important; }
+.half-right, .add-right-10 { margin-right: 10px !important; }
+
+.add-bottom, .add-bottom-20 { margin-bottom: 20px !important; }
+.add-top, .add-top-20 { margin-top: 20px !important; }
+.add-left, .add-left-20 { margin-left: 20px !important; }
+.add-right, .add-right-20 { margin-right: 20px !important; }
+
+.semi-bottom, .add-bottom-30 { margin-bottom: 30px !important; }
+.semi-top, .add-top-30 { margin-top: 30px !important; }
+.semi-left, .add-left-30 { margin-left: 30px !important; }
+.semi-right, .add-right-30 { margin-right: 30px !important; }
+
+.double-bottom, .add-bottom-40 { margin-bottom: 40px !important; }
+.double-top, .add-top-40 { margin-top: 40px !important; }
+.double-left, .add-left-40 { margin-left: 40px !important; }
+.double-right, .add-right-40 { margin-right: 40px !important; }
+
+.add-bottom-50 { margin-bottom: 50px !important; }
+.add-top-50  { margin-top: 50px !important; }
+.add-left-50  { margin-left: 50px !important; }
+.add-right-50  { margin-right: 50px !important; }
+
+.add-bottom-60 { margin-bottom: 60px !important; }
+.add-top-60  { margin-top: 60px !important; }
+.add-left-60  { margin-left: 60px !important; }
+.add-right-60  { margin-right: 60px !important; }
+
+.add-bottom-80 { margin-bottom: 80px !important; }
+.add-top-80  { margin-top: 80px !important; }
+.add-left-80  { margin-left: 80px !important; }
+.add-right-80  { margin-right: 80px !important; }
+
+.add-bottom-90 { margin-bottom: 90px !important; }
+.add-top-90  { margin-top: 90px !important; }
+.add-left-90  { margin-left: 90px !important; }
+.add-right-90  { margin-right: 90px !important; }
+
+.add-bottom-100 { margin-bottom: 100px !important; }
+.add-top-100  { margin-top: 100px !important; }
+.add-left-100  { margin-left: 100px !important; }
+.add-right-100  { margin-right: 100px !important; }
+
+
+/** Padding */
+
+.add-inner-10 { padding: 10px; }
+.add-inner-20 { padding: 20px; }
+
+.add-inner-bottom-5 { padding-bottom: 5px !important; }
+
+
+.add-inner-top-5 { padding-top: 5px !important; }
+.add-inner-top-6 { padding-top: 6px !important; }
+.add-inner-top-7 { padding-top: 7px !important; }
+.add-inner-top-8 { padding-top: 8px !important; }
+.add-inner-top-9 { padding-top: 9px !important; }
+.add-inner-top-10 { padding-top: 10px !important; }
+.add-inner-top-11 { padding-top: 11px !important; }
+.add-inner-top-12 { padding-top: 12px !important; }
+.add-inner-top-13 { padding-top: 13px !important; }
+.add-inner-top-20 { padding-top: 20px !important; }
+.add-inner-top-30 { padding-top: 30px !important; }
+.add-inner-top-40 { padding-top: 40px !important; }
+
+.add-inner-bottom-20 { padding-bottom: 20px !important; }
+.add-inner-bottom-37 { padding-bottom: 37px !important; }
+.add-inner-bottom-40 { padding-bottom: 40px !important; }
+
+
+.add-inner-right-5 { padding-right: 5px !important; }
+.add-inner-right-10 { padding-right: 10px !important; }
+
+.add-inner-left-5 { padding-left: 5px !important; }
+.add-inner-left-10 { padding-left: 10px !important; }
+
+.half-inner-bottom, .add-inner-bottom-10 { padding-bottom: 10px !important; }
+.half-inner-top, .add-inner-top-10  { padding-top: 10px !important; }
+.half-inner-left, .add-inner-left-10  { padding-left: 10px !important; }
+.half-inner-right, .add-inner-right-10  { padding-right: 10px !important; }
+
+.double-inner-bottom { padding-bottom: 40px !important; }
+.double-inner-top { padding-top: 40px !important; }
+.double-inner-left { padding-left: 40px !important; }
+.double-inner-right { padding-right: 40px !important; }
+
+.add-inner-bottom { padding-bottom: 20px !important; }
+.add-inner-top { padding-top: 20px !important; }
+.add-inner-left { padding-left: 20px !important; }
+.add-inner-right { padding-right: 20px !important; }
+
+.noMargin { margin: 0 !important; }
+.noPadding { padding: 0 !important; }
+
+
+
+
+/* #Borders
+================================================== */
+
+.noborder, .noBorder { border: none !important; }
+.border { border: 1px solid #ddd; border-radius: 3px;  }
+.borderBottom { border-bottom: 1px solid #ddd; }
+.roundBorder, .borderRadius2 { -moz-border-radius: 2px;  -webkit-border-radius: 2px; border-radius: 2px;}
+.borderRadius5 { -moz-border-radius: 5px;  -webkit-border-radius: 5px; border-radius: 5px; }
+.boxShadow { box-shadow: 1px 1px 1px 1px #aaa; }
+.noBoxShadow { box-shadow: 0px 0px 0px 0px #aaa; }
+
+/* #Misc
+================================================== */
+.inline { display: inline; }
+.inlineBlock { display: inline-block; }
+.block { display: block; }
+.hidden { display: none; }
+.whiteSpaceNoWrap { white-space: nowrap; }
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.lineThrough { text-decoration: line-through; }
+.overflowHidden { overflow: hidden; }
+
+
+/* #Font-Size
+================================================== */
+.f12 { font-size: 12px !important; }
+.f13 { font-size: 13px !important; }
+.f14 { font-size: 14px !important; }
+.f15 { font-size: 15px !important; }
+.f16 { font-size: 16px !important; }
+.f17 { font-size: 17px !important; }
+.f18 { font-size: 18px !important; }
+.f19 { font-size: 19px !important; }
+.f20 { font-size: 20px !important; }
+.f21 { font-size: 21px !important; }
+.f22 { font-size: 22px !important; }
+.f100 { font-size: 100%  !important; }
+
+
+/* #Font-Weight
+================================================== */
+.fw300 { font-weight: 300; }
+.fw400 { font-weight: 400; }
+.fw700 { font-weight: 700 !important; }
+.fw800 { font-weight: 800; }
+
+/* #Line-Heigt
+================================================== */
+.lineHeight07 { line-height: 0.7em; }
+.lineHeight075 { line-height: 0.75em; }
+.lineHeight08 { line-height: 0.8em; }
+.lineHeight085 { line-height: 0.85em; }
+.lineHeight09 { line-height: 0.9em; }
+.lineHeight095 { line-height: 0.95em; }
+.lineHeight100 { line-height: 1em; }
+.lineHeight105 { line-height: 1.05em; }
+.lineHeight110 { line-height: 1.1em; }
+.lineHeight115 { line-height: 1.15em; }
+.lineHeight120 { line-height: 1.2em; }
+.lineHeight125 { line-height: 1.25em; }
+.lineHeight130 { line-height: 1.3em; }
+.lineHeight135 { line-height: 1.35em; }
+.lineHeight140 { line-height: 1.4em; }
+.lineHeight145 { line-height: 1.45em; }
+.lineHeight150 { line-height: 1.5em; }
+.lineHeight155 { line-height: 1.55em; }
+.lineHeight160 { line-height: 1.6em; }
+.lineHeight165 { line-height: 1.65em; }
+.lineHeight170 { line-height: 1.7em; }
+.lineHeight175 { line-height: 1.75em; }
+.lineHeight180 { line-height: 1.8em; }
+
+
+/* #Positions
+================================================== */
+.float_right { float: right !important; }
+.float_left { float: left !important; }
+.noFloat { float: none !important; }
+.outOfScreen {position: absolute; left: -5000px; }
+.relative { position: relative; }
+.absolute { position: absolute; }
+.alignRight { text-align: right; }
+.center {text-align: center; vertical-align: middle;}
+.justify {text-align: justify;}
+img.center { margin: 0 auto; }
+
+/* #green
+================================================== */
+.color6B8E23, .green { color: #6B8E23; }
+
+/* #Grey
+==================================================*/
+.color000, .black { color: #000; }
+.color111 { color: #111; }
+.color222 { color: #222; }
+.color333 { color: #333; }
+.color444 { color: #444; }
+.color555 { color: #555; }
+.color666 { color: #666; }
+.color777 { color: #777; }
+.color888 { color: #888; }
+.color999 { color: #999; }
+.colorAAA { color: #aaa; }
+.colorBBB { color: #bbb; }
+.colorCCC { color: #ccc; }
+.colorDDD { color: #ddd; }
+.colorEEE { color: #eee; }
+.colorFFF, .white { color: #fff; }
+
+/* #Cyan
+================================================== */
+.color8DB6CD, .lightSkyBlue3 { color: #8DB6CD; }
+
+
+/* #Background Colors
+================================================== */
+.noBackground, .nobackground { background-color: transparent !important; }
+.bgE80017, .bgLinotypeRed { background-color: #e80017; }
+
+/* #Grey
+==================================================*/
+.bg000 { background-color: #000; }
+.bg111 { background-color: #111; }
+.bg222 { background-color: #222; }
+.bg333 { background-color: #333; }
+.bg444 { background-color: #444; }
+.bg555 { background-color: #555; }
+.bg666 { background-color: #666; }
+.bg777 { background-color: #777; }
+.bg888 { background-color: #888; }
+.bg999 { background-color: #999; }
+.bgAAA { background-color: #aaa; }
+.bgBBB { background-color: #bbb; }
+.bgCCC { background-color: #ccc; }
+.bgDDD { background-color: #ddd; }
+.bgEEE { background-color: #eee; }
+.bgf5f5f5 { background-color: #f5f5f5; }
+.bgFFF { background-color: #fff; }
+
+
+/* #boxes
+================================================== */
+.infoBox { background: #66CDAA; padding: 20px; color: black; font-size: 0.9em; }
+.infoBox:hover { }
+.blueBox { background: lightblue; padding: 20px; color: black; font-size: 0.9em; }
+
+/* #Width
+================================================== */
+.width20 { width: 20%; }
+.width30 { width: 30%; }
+.width90 { width: 90%; }
+
+/* #Videos
+================================================== */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Blockquotes 
+================================================== */
+article blockquote, article blockquote p { color: #777; font-style: italic; font-size: 1.1em; }
+article blockquote { margin: 0px 0 30px 60px; padding: 3px 20px 20px 19px; border-left: 1px dotted #ddd; position: relative }
+article blockquote cite { display: block; font-size: 12px; color: #555; }
+article blockquote cite:before { 
+    display: block;
+    font-family: Georgia;
+    content: "\201C";
+    font-size: 9.4em;
+    position: absolute;
+    left: -60px;
+    top: -20px;
+    color: #7a7a7a;
+}
+article blockquote cite a, blockquote cite a:visited, blockquote cite a:visited { color: #555; }
+
+/* Links
+=================================================== */
+figcaption span.copyright {
+    float: right;
+    margin-right: 10px;    
+}
+
+figcaption span.copyright:before {
+    content: "© ";
+}
+
+h1 a[name]:after,
+h2 a[name]:after,
+h3 a[name]:after,
+h4 a[name]:after,
+h5 a[name]:after,
+h6 a[name]:after{ 
+    color: #ccc;
+    content:"\f0c1";
+    font-family:FontAwesome;
+    font-size:17px;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:inherit;
+    -webkit-font-smoothing:antialiased;
+    display:inline;
+    width:auto;
+    height:auto;
+    line-height:normal;
+    vertical-align:baseline;
+    background-image:none;
+    background-position:0 0;
+    background-repeat:repeat;
+    margin-top:0;
+    margin-left: 10px;
+}
+
+h1 a[name]:hover:after,
+h2 a[name]:hover:after,
+h3 a[name]:hover:after,
+h4 a[name]:hover:after,
+h5 a[name]:hover:after,
+h6 a[name]:hover:after{
+    color: #000;
+}
+
+a.external:after, article p a[target="_blank"]:after {
+    color: #ccc;
+    content:"\f08e";
+    font-family:FontAwesome;
+    font-size:15px;
+    font-weight:normal;
+    font-style:normal;
+    text-decoration:inherit;
+    -webkit-font-smoothing:antialiased;
+    display:inline;
+    width:auto;
+    height:auto;
+    line-height:normal;
+    vertical-align:baseline;
+    background-image:none;
+    background-position:0 0;
+    background-repeat:repeat;
+    margin-top:0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a.external:after, article p a[target="_blank"]:hover:after {
+    color: #000;
+}

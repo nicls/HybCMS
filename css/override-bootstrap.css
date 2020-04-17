@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+.has-feedback .form-control-feedback {
+    top: 28px;
+}
+
+.alert-info { 
+    font-size: 0.8em;
+}
+
+.navbar-default {
+    background-image: none;
+    filter: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #444;
+}
+
+mark {
+ background-color: #FCF8E3;    
+}

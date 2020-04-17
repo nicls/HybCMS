@@ -1,0 +1,13 @@
+.alert-success,
+.alert-info,
+.alert-warning,
+.alert-danger,
+.btn-default,
+.btn-primary,
+.btn-success,
+.btn-info,
+.btn-warning,
+.btn-danger {
+  background-image: none;
+  filter: none;
+}
